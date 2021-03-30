@@ -1,0 +1,31 @@
+html { 
+  background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+    width: 1000px;
+    position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+h1 
+{
+    font-size: 45px;
+    position: fixed;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  top: 75%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    
+}
